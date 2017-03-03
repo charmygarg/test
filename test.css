@@ -1,0 +1,64 @@
+
+div.innerBlock {
+  margin: 30px 90px 30px 90px;
+  padding: 15px 15px 15px 15px;
+  background-color: #606162;
+}
+
+div.subInnerBlock {
+  background-color: #484949;
+  padding: 0px 0px 0px 90px;
+}
+
+span.glyphicon.glyphicon-menu-hamburger {
+  margin-left: 1200px;
+  margin-top: 10px;
+}
+
+div img image {
+  margin-left: 20px;
+}
+
+.glyphicon {
+  color: #4CDA78;
+  font-size: 20px;
+}
+
+span.glyphicon.glyphicon-map-marker.map {
+  margin: 40px 0px 0px 40px;
+}
+
+span.glyphicon.glyphicon-envelope.envelope {
+  margin: 11px 0px 0px 40px!important;
+}
+
+span.glyphicon.glyphicon-phone-alt.phone {
+  margin: 12px 0px 0px 40px;
+}
+
+.info {
+  color: grey;
+}
+
+input.form-control {
+  background-color: #606162;
+  margin: 10px 0px 0px 40px;
+  color: white;
+}
+
+textarea.form-control {
+  background-color: #606162;
+  margin: 10px 0px 0px 40px;
+  color: white;
+}
+
+select.form-control {
+  background-color: #606162;
+  margin: 10px 0px 0px 40px;
+  color: white;
+}
+
+button.btn.btn-default.submit {
+  background-color: #4CDA78;
+  margin: 10px 0px 0px 40px;
+}
