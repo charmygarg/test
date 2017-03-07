@@ -10,14 +10,14 @@ $(document).ready(function(){
       })
 
       $("#get-data").on("click",function(){
-        var username = $("#name").val();
+        
         $.ajax({
-          url:"https://public-api.wordpress.com/rest/v1/sites/25262138/posts/"+username,
+          url:"https://public-api.wordpress.com/rest/v1/sites/dotnetask.wordpress.com",
           success: function(data){
-            $("#user-image").attr("src",data.avatar_url);
-            $("#address").text(data.nice_name);
-            $("#phone").text(data.login)
-            $("#email-ID").text(data.email)
+            //$("#user-image").attr("src",data.avatar_url);
+            $("#address").text(data.name);
+            $("#phone").text(data.ID)
+            $("#email-ID").text(data.description)
           },
           error: function(){
             $("#user-image").attr("src","no-user.png");
